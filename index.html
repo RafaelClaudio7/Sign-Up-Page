@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <section class="left-side">
+          <header class="left-header">
+            <a href=""><img src="assets/logo.png" alt="logo" class="logo" /></a>
+          </header>
+          <h1>
+            Find 3D Objects, Mockups <br />
+            and ilustration here
+          </h1>
+          <div class="position-img">
+            <img src="assets/obj.png" alt="Objects" />
+          </div>
+        </section>
+        <section class="right-side">
+          <header class="right-header">
+            <label for="lang"></label>
+            <select id="lang" name="lang">
+              <option value="english">English(UK)</option>
+              <option value="portuguese">Portuguese-BR</option>
+            </select>
+          </header>
+          <div class="form-container">
+            <h2>Create Account</h2>
+            <button class="connect">
+              <img src="assets/glg.svg" alt="" /> Sign up wiith Google
+            </button>
+            <button class="connect">
+              <img src="assets/facebook 1.svg" alt="" /> Sign up wiith Facebook
+            </button>
+            <span class="or">- OR -</span>
+            <form action="">
+              <label for="fullname"></label>
+              <input
+                type="text"
+                name="fullname"
+                id="fname"
+                placeholder="Full Name"
+              />
+              <label for="email"></label>
+              <input type="text" name="email" id="email" placeholder="E-mail" />
+              <label for="password"></label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+              <button type="submit" class="create-btn">Create Account</button>
+              <span class="login">Already have an account</span>
+              <a href="#" class="log">Log in</a>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
